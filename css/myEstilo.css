@@ -1,14 +1,47 @@
-header
+/*Id*/
+#fondo-pop
 {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 0px;
 	width: 100%;
-	height: 60px;
-	position: fixed;
-	background-color: #aa0011;
-	z-index: 1000;
-	top: 0;
-	left: 0;
+	height: 100%;
+	background-color: rgba(255, 255, 0, 0.8);
+	z-index: 10001;
 }
 
+#elimina, #update, #maspag
+{
+	width: 50px;
+	height: 50px;
+	background-color: #234ff1;
+	border-radius: 10px;
+	text-align: center;
+	margin-left: 3px;
+	display: inline-block;
+	-ie-box-shadow: 10px 10px 5px #888;
+	-moz-box-shadow: 10px 10px 5px #888;
+	-webkit-box-shadow: 10px 10px 5px #888;
+	box-shadow: 10px 10px 5px #888;
+}
+
+#pop
+{
+	/*display: none;*/
+	/*display: inline-block;*/
+	position: absolute;
+	top: 40%;
+	left: 0px;
+	width: 100%;
+	height: 8%;
+	z-index: 1000;
+	background-color: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	/*padding-top: 20px;*/
+}
+
+/*Etiquetas*/
 footer
 {
 	width: 100%;
@@ -21,15 +54,16 @@ footer
 	text-align: center;
 }
 
-section
+header
 {
-	margin-top: 65px;
-	margin-left: auto;
-}
-
-ul
-{
-	width: 35%;
+	width: 100%;
+	height: 60px;
+	position: fixed;
+	background-color: #aa0011;
+	z-index: 1000;
+	top: 0;
+	left: 0;
+	text-align: center;
 }
 
 li
@@ -40,4 +74,15 @@ li
 	height: 45px;
 	border-radius: 7px;
 	list-style-type: none;
+}
+
+section
+{
+	margin-top: 65px;
+	margin-left: auto;
+}
+
+ul
+{
+	width: 35%;
 }
